@@ -1,0 +1,51 @@
+/* header{
+    background-image: url('https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGNvZGluZyUyMGhkJTIwcGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat,center;
+    width: 100%;
+    height: 100%;
+    opacity:0.5 ;
+} */
+section{
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid orangered; */
+    justify-content: center;
+  
+    
+}
+
+section::before{
+    content:"YOU ARE AT RIGHT PLACE" ;
+    font-size: 2rem;
+}
+body{
+    background: #000;
+    color: rgb(239, 74, 8);
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    /* background-repeat: space; */
+    /* opacity: 0.10;    ==>if we will try to put opacity here then there would fade  text */
+    /* z-index: -1; */
+    text-shadow: 3px 3px 3px rgb(101, 232, 13);
+}
+.navigation{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding:10px ;
+/* border-top: 2px solid orangered;
+border-bottom:2px solid orangered ; */
+   
+}
+/* li #home{
+    border-left:2px solid orangered ;
+} */
+p{
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
